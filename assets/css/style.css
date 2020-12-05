@@ -113,10 +113,10 @@ h1, h2, h3, h4, h5, h6 {
   #header {
     box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
     top: 0;
-    background: #D7D7D7;
+    background: #FFFFFF;
   }
   #header.header-scrolled, #header .header-container {
-    background: #D7D7D7;
+    background: #FFFFFF;
   }
   #header .logo h1 {
     font-size: 24px;
