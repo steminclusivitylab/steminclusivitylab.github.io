@@ -1,1 +1,0 @@
-moved favicons to assets
