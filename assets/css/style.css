@@ -51,7 +51,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .back-to-top i:hover {
-  background: #00805d;
+  background: #E87331;
   color: #fff;
 }
 
@@ -87,7 +87,7 @@ h1, h2, h3, h4, h5, h6 {
 #header .logo {
   overflow: hidden;
   padding: 16px 30px 12px 30px;
-  background: #D7D7D7;
+  background: #FFFFFF;
 }
 
 #header .logo h1 {
