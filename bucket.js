@@ -28,7 +28,7 @@ function upload(){
   let fil = document.getElementById("myFile").files[0];
   let storageRef = firebase.storage().ref();
   let name = fil.name;
-  let path = "documents/" + name
+  let path = "documents/Gender Gap/" + name
   let ref = storageRef.child(path);
   
   let fileReader= new FileReader();
@@ -45,7 +45,7 @@ function upload(){
 function download(e){
   console.log(e.target.name);
   let storageRef = firebase.storage().ref();
-  let path = "documents/" + e.target.name;
+  let path = "documents/Gender Gap/" + e.target.name;
   storageRef.child(path).getDownloadURL().then(function(url) {
     // `url` is the download URL for 'images/stars.jpg'
   
