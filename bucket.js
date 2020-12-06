@@ -35,6 +35,7 @@ function upload(){
   fileReader.onload = function (fileLoadedEvent) {
     ref.putString(fileLoadedEvent.target.result, 'data_url').then(function(snapshot) {
       console.log('Uploaded a data_url string!');
+      list()
     });
 
   };
