@@ -77,7 +77,7 @@ async function list(){
     documents.push(itemRef.name); 
   });
   var ul = document.getElementById("documents");
-  
+  ul.innerHTML = "";
   for (let i of documents){
     var li = document.createElement("li");
     var button = document.createElement("button");
